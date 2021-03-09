@@ -5,16 +5,16 @@ const CommentDetail = (props) => {
   return (
     <div className="comment">
       <a href="/" className="avatar">
-        <img alt="avatar" src={faker.image.image()} />
+        <img alt="avatar" src={props.fakePhoto} />
       </a>
-      <div classname="content">
-        <a href="/" classname="author">
+      <div className="content">
+        <a href="/" className="author">
           {props.animeCharacter}
         </a>
-        <div classname="metadata">
-          <span classname="date">Today at 11:30pm</span>
+        <div className="metadata">
+          <span className="date">{props.ninjaTime}</span>
         </div>
-        <div classname="text">Nice blog post!</div>
+        <div className="text">{props.meetingTopic}</div>
       </div>
     </div>
   );
