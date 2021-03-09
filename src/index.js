@@ -7,7 +7,11 @@ import CommentDetail from "./CommentDetail";
 const App = () => {
   return (
     <div className="ui container comments">
-      <CommentDetail />
+      <CommentDetail animeCharacter="Itachi"/>
+      <CommentDetail animeCharacter="Kakashi"/>
+      <CommentDetail animeCharacter="Obito"/>
+      <CommentDetail animeCharacter="Minato"/>
+      <CommentDetail animeCharacter="Pain"/>
     </div>
   );
 };
